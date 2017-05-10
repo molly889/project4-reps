@@ -1,0 +1,98 @@
+// css inspired by https://www.youtube.com/watch?time_continue=401&v=lhuyxt8YpbM
+// flexbox and grid!
+html{
+  box-sizing:border-box;
+}
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+body{
+  margin:0;
+}
+header{
+  background: url('../pictures/flag.jpg') no-repeat center;
+  background-size: cover;
+  padding: 40px;
+  text-align: center;
+}
+input{
+  padding: .5em;
+  font-size: 1.5em;
+  margin: 0px auto;
+  width: 40%;
+  min-width: 300px;
+  max-width: 600px;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 1px 1px 1px black;
+}
+button {
+  border-radius: 20px;
+  background: #FFFFF0;
+}
+h1 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+h2 {
+  text-align: center;
+}
+.reps {
+  display: table;
+  margin: 0 auto;
+  width: 90%;
+  font-family: 'Cinzel', serif;
+}
+.border {
+  display: inline-block;
+  border: 1px solid #C0C0C0;
+  vertical-align: top;
+
+}
+.representative {
+  border: 1px solid #C0C0C0;
+}
+li {
+  list-style: none;
+}
+li:nth-child(1), li:nth-child(odd){
+  background: #F5F5F5;
+}
+.repub {
+  color: #B22222;
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+}
+.rep {
+  color: #B22222;
+}
+.rep h3 {
+  padding-right: 5px;
+  background: #F5F5F5;
+}
+.rep ul {
+  padding-right: 40px;
+  padding-left: 0;
+}
+.demo {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  color: #191970;
+}
+.dem {
+  color: #191970;
+}
+.dem h3 {
+  padding-left: 5px;
+  background: #F5F5F5;
+}
+.error {
+  background: red;
+  border-radius: 10px;
+}
+.error h3, p {
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+}
